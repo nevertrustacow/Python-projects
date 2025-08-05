@@ -3,7 +3,7 @@
 '''
 Date:        2023 November 17
 Autor:       Zenande Khoza
-File:        Python Programming Project 1 
+File:        Python Programming Project 
 Description:
 the creation of every table in the database
 Utilizing MYSQL (installed Python Connector)
@@ -21,7 +21,7 @@ print("Python - MySql connector found")
 conn = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Hyejeong@08",
+  password="Enter password",
 
 )
 print("Connection to local MySQL database server successfully established")
@@ -173,4 +173,5 @@ mysql_commands_cursor.close()
 print("Flush off the cursor object")
 
 #closing the connection to the database 
+
 conn.close()
