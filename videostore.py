@@ -3,7 +3,7 @@
 '''
 Date:        2023 November 17
 Autor:       Zenande Khoza
-File:        Python Programming Project 1 
+File:        Python Programming Project  
 Description:
 Keeping an organised record of customers is essential for smooth operations in the video store. 
 I created a user-friendly system to enable the video store to keep track of both current and potential customers in order to address this. 
@@ -18,7 +18,7 @@ import mysql.connector #I am using this module's function to connect Python and 
 conn = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="Hyejeong@08",
+  password="Enter password",
   database="PY_Videostore_db"
 )
 cur = conn.cursor()
@@ -183,6 +183,7 @@ while True:
         break
     else:
         print("Invalid choice. Please enter a valid option.")
+
 
 
 
